@@ -1,0 +1,11 @@
+Main
+int main
+var int i 
+GetInt tmpVar_1
+i = tmpVar_1
+var int j 
+GetInt tmpVar_2
+j = tmpVar_2
+tmpVar_3 = i & j
+PrintInt tmpVar_3
+Exit

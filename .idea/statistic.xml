@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Statistic">
+    <option name="excludedDirectories">
+      <list>
+        <option value="$PROJECT_DIR$/cmake-build-debug" />
+        <option value="$PROJECT_DIR$/20221029214403954generate" />
+        <option value="$PROJECT_DIR$/2021Generate" />
+        <option value="$PROJECT_DIR$/Compiler_Syn" />
+        <option value="$PROJECT_DIR$/20221101225957245" />
+        <option value="$PROJECT_DIR$/20221105191751099" />
+      </list>
+    </option>
+  </component>
+</project>

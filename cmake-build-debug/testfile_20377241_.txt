@@ -1,0 +1,34 @@
+.data
+endl: .asciiz "\n"
+
+.text
+
+j function_main
+function_main:
+move $fp, $sp
+addi $sp, $sp, -24
+li $v0, 5
+syscall
+sw $v0, 8($sp)
+lw $t0, 8($sp)
+sw $t0, 4($sp)
+li $t0, 19241027
+sw $t0, 12($sp)
+lw $t0, 4($sp)
+li $t1, 4
+div $t0, $t1
+mfhi $t2
+sw $t2, 16($sp)
+lw $t0, 16($sp)
+li $t1, 0
+bne $t0, $t1, if_0end
+if_0begin:
+lw $a0, 12($sp)
+li $v0, 1
+syscall
+la $a0, endl
+li $v0, 4
+syscall
+if_0end:
+li $v0, 10
+syscall
