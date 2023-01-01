@@ -6,3 +6,5 @@ BUAA scse Compiler Experiment
 竞速成绩很不好，优化里面也有不少bug，从实现的来看应该除法优化没啥问题，其余应该或多或少都有些bug。
 
 具体的实现见设计报告吧
+
+auto-generate 里面是自动生成优化前/后中间代码和目标代码，课程组会需要的
